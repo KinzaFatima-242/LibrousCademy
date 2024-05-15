@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10th-PSt</title>
+          
+<!------Bootstrap------>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-------Jquery-------->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-----------Icons--------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!----FONT FAMILY---------->
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@500&family=Corinthia:wght@700&family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Libre+Baskerville:wght@700&family=Lobster&family=Merriweather:ital,wght@0,900;1,300&family=Montserrat:wght@300&family=Playball&family=Playfair+Display:wght@400;500&family=Poppins:ital,wght@0,300;0,400;1,400&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<style>
+    /******Navbar**********/
+
+
+    .navbar{
+    margin-left: 250px;
+        padding: 20px;
+
+}
+.navbar ul li{
+    display: flex;
+    float: left;
+    margin: 15px;
+}
+.navbar-logo img{
+    margin: 20px;
+    padding: 0%;
+    margin-bottom: -70px;
+    width: 100px;}
+.navbar ul li a{
+
+    align-items: first baseline;
+    font-family: 'Merriweather';
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    color:#2D033B;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: #E5B8F4;
+    border-radius: 10px;}
+
+
+
+
+
+/*****9th standard heading********/
+#heading{
+padding: 20px;
+}
+.heading-mathematics {width: 800px;}
+.heading-mathematics img{
+ margin-top: -50px;
+    margin-left: 24px;
+    width: 1300px;
+    height: 150px;
+
+}
+#heading h2{
+font-family: 'Merriweather';
+    text-align: center;
+    border-radius: 9px;
+    background-color: #2D033B;
+    padding: 20px;
+    color: #E5B8F4;
+    margin-left: 500px;
+    font-size: 40px;
+    animation-name: heading;
+    animation-duration: 3s;
+}
+
+@keyframes  heading{
+    from{
+        margin-left: 20px;
+    }
+    to{
+        margin-left: 500px;
+    }
+}
+#heading h3{
+    color:#2D033B;
+    margin-left: 150px;
+    font-family: 'Merriweather';
+
+    font-size: 25px;
+animation-name: intro-para;
+animation-duration: 3s;
+
+}
+@keyframes intro-para{
+    from{
+
+margin-left: 0px;
+    }
+    to{    margin-left: 150px;
+    }
+
+}
+
+.mainbanner img{
+
+margin-left: 250px;
+}
+/******Pdfs and chapter*********/
+#units-and-pdf{
+ background-color: #E5B8F4;   
+    margin-top:20px;
+    padding: 20px;
+    border: #2D033B;
+    border-radius: 20px;
+
+}
+#pdfs ul li{
+    list-style-type:decimal;
+    
+    font-size: 20px;
+margin: 20px;
+}
+#pdfs ul li a{
+padding: 10px;
+ font-family: 'Merriweather';
+
+border-radius: 10px;
+    text-decoration: none;
+   color:#2D033B;
+}
+#pdfs ul li a:hover{
+background-color: #2D033B;
+    color: #E5B8F4;
+    
+    transition: 0.5s ease-in-out;
+    
+}
+#unit h4{
+    background-color: #2D033B;
+    font-family: 'Merriweather';
+    color: white;
+    padding: 10px;
+    border-radius:10px ;
+}
+#right-para img{
+    font-family: 'Merriweather';
+
+    width: 100%;
+    height: 200px;
+}
+#para-bottom-of-units{margin: 20px;
+color: #2D033B;
+font-size: 25px;
+font-family: 'Montserrat';
+
+padding: 10px;}
+
+/******************FOOTER***************************************/
+#footer{background-color:#2D033B;
+    text-align: center;
+       color:#E5B8F4;}
+#footer .footer_pages{
+    margin-top: 30px;
+}
+
+#footer .footer_pages a{
+    padding: 8px ;
+    font-family: 'Montserrat';
+text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    display:block;}
+
+#footer .social_links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    float: left;}
+
+#footer .social_links h3{
+    font-size: 25px;
+    font-family: 'Merriweather';
+    margin-top: 20px;
+} 
+
+#footer .fa {
+    border-radius: 50%;
+  
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+  }
+  
+  #footer  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  #footer .fa-facebook {
+    
+    background: #3B5998;
+    color: white;
+  }
+  
+  #footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  #footer .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  #footer .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  #footer .fa-youtube {
+    background: #bb0000;
+    color: white;}
+
+    #footer .fa-skype {
+        background: #00aff0;
+        color: white;
+      }
+      
+      
+      #footer .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      #footer #btn{
+        background-color: #E5B8F4;
+        color: #2D033B;
+        font-family: 'Merriweather';
+
+      }
+
+
+/**************Get in touch form*********************/
+  #footer .get_in_touch h3{
+    font-size: 30px;
+    font-family: 'Merriweather';
+    margin-top: 20px;
+} 
+  
+
+</style>
+</head>
+<body>
+ <!---navar-->
+ <section>
+    <!----Nav bar------>
+        <div class="col-lg-8">
+            <a href="" class="navbar-logo"><img src="Pic/Logo.png" alt=""></a>
+            <div class="navbar">
+        
+            <ul>
+                
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Standards.html">Standard</a></li>
+                <li><a href="Our-Vision.html">Our Vision</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Join-Us.html">Join Us</a></li>
+            </ul>
+        </div>
+    </div>
+        </section>
+        <div class="heading-mathematics">
+           
+            <img src="Pic/pst.png" alt="">
+        </div>
+            
+
+ <!--Heading and subjects of Standards-->
+
+ <section id="head-and-para">
+    <div id="heading">
+        <h2>10th Standard</h2>
+        <div >
+           <h3>
+            Say hello to a career that will make a lasting impact on the lives of Pakistani students</h3> 
+        
+
+        </div>
+
+        <div class="mainbanner">
+            <img src="Pic/Mainbanner.png" alt="">
+    </div> 
+    </section>
+<div class="container-fluid text-center" id="units-and-pdf">
+        <div class="row">
+          <div class="col-lg-2" id="side-para">
+         .We’re always thinking boldly, always experimenting, always innovating! Staying curious is the way we make sure we’re never leaving any stone unturned
+        </div>
+          <div class="col-lg-8" id="pdfs">
+            <div id="unit">
+                <h4>Units</h4>
+            </div>
+            
+            <ul>
+            
+            <li><a href="9th Class/Pst/Chapter 1 - Ideological Basis of Pakistan_unpw.pdf" target="_blank">Ideological Basis of Pakistan</a></li>
+            <li><a href="9th Class/Pst/Chapter 2 - Making of Pakistan_unpw.pdf" target="_blank">Making of Pakistan</a></li>
+            <li><a href="9th Class/Pst/Chapter 3 - Land and Environment_unpw.pdf" target="_blank">Land and Environment</a></li>
+            <li><a href="9th Class/Pst/Chapter 4 - History of Pakistan (Part-1)_unpw.pdf" target="_blank">History of Pakistan (Part-1)</a></li>
+            <li><a href="9th Class/Pst/Chapter 4 - History of Pakistan (Part-1)_unpw.pdf" target="_blank">History of Pakistan (Part-2)</a></li>
+           
+           
+        </ul>
+          </div>
+          <div class="col-lg-2" id="side-para" >
+            <p>
+            If you’re ready to take on the challenge of making high quality, engaging education a reality for students across Pakistan, Maqsad is the place for you. Our team is filled with highly driven individuals who bring their own unique expertise and passions to our mission</p>
+          </div>
+        </div>
+      </div>
+      <div id="para-bottom-of-units"> Our team is filled with highly driven individuals who bring their own unique expertise and passions to our mission.We put students front and center of everything we do! Making learning fun and accessible for 100 million children in Pakistan is our north star for every decision we take!.</div>
+<hr>
+<!----------FOOTER---------------->
+<section id="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="footer_about">
+          <img src="" alt="">
+          <p>Our team is filled with highly driven individuals who bring their own unique expertise and passions to our mission.We put students front and center of everything we do! Making learning fun and accessible for 100 million children in Pakistan is our north star for every decision we take!..
+              f you’re ready to take on the challenge of making high quality, engaging education a reality for students across Pakistan, Maqsad is the place for you. Our team is filled with highly driven individuals who bring their own unique expertise and passions to our mission.
+          </p>
+        </div>
+    </div>
+      <div class="col-lg-2">
+        <div class="footer_pages">
+          <a href="Standards.html">Notes</a>
+          <a href="Standards.html">Standard</a>
+          <a href="Our-Vision.html">Our Vision</a>
+          <a href="Login.html">Login</a>
+          <a href="Join-Us.html">Join Us</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+          <div class="social_links">
+              <h3>Social Links</h3>
+              <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+              <a href="https://pk.linkedin.com/" class="fa fa-linkedin"></a>
+              <a href="https://www.google.com/" class="fa fa-google"></a>
+              <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+              <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+              <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+            </div>
+      </div>
+      <div class="col-lg-3">
+  <div class="get_in_touch">
+  <h3>Get in touch with us</h3>
+  <div>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email"  id="num3"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp"  id="num4"  class="form-text text-light">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      
+      <input type="button" class="btn" value="Submit" id="btn">
+    </form>
+  </div>
+  </div>       
+                 
+          <!----------SCRIPT TAG----------->
+              
+          <script>
+              $(document).ready(function(){
+              
+             
+                  $("#btn").click(function(){
+            
+              
+            var num3=$("#num3").val();
+            var num4=$("#num4").val();
+            
+            
+            if(num3=="" || num4==""){alert('Oppss! You forget to fill the field');}
+            else{
+              alert('Thanks for Coming')
+              
+            }
+            });
+            
+            });
+            </script>
+    </div>
+    <hr>
+    <p>Copy Rights: All rights are Reserved</p>
+  </div>
+  
+  </section>
+  
+      </body>
+</html>
